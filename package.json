@@ -4,7 +4,6 @@
   "description": "First Angular 5 Project",
   "author": "Eugene Popov <metanit.com>",
   "scripts": {
-    "start": "webpack-dev-server --hot --open",
     "dev": "webpack-dev-server --hot --open",
     "build": "webpack"
   },
