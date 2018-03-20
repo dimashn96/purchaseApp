@@ -5,8 +5,8 @@
   "author": "Eugene Popov <metanit.com>",
   "scripts": {
     "dev": "webpack-dev-server --hot --open",
-    "build": "webpack",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
+    "build": "webpack"
+//    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
   },
   "dependencies": {
     "@angular/common": "~5.0.0",
