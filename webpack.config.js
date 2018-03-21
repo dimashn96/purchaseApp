@@ -2,12 +2,6 @@ var path = require('path');
 var webpack = require('webpack');
 var UglifyJSPlugin = require('uglifyjs-webpack-plugin'); // плагин минимизации
 module.exports = {
-    devServer: {
-        hot: true,
-        open: true,
-        host: "0.0.0.0",
-        disableHostCheck: true
-    },
     entry: {
         'polyfills': './src/polyfills.ts',
         'app': './src/main.ts'
