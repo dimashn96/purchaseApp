@@ -40,8 +40,8 @@ module.exports = {
         new UglifyJSPlugin()
     ],
     devServer: {
-        hot: "true",
-        open: "true",
+        hot: true,
+        open: true,
         host: "0.0.0.0",
         disableHostCheck: true
     }
