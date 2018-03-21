@@ -38,5 +38,12 @@ module.exports = {
             name: ['app', 'polyfills']
         }),
         new UglifyJSPlugin()
-    ]
+    ],
+    devServer: {
+        hot: true,
+        open: true,
+        inline: true,
+        host: "0.0.0.0",
+        disableHostCheck: true
+    }
 };
