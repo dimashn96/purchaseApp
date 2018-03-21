@@ -4,8 +4,8 @@
   "description": "First Angular 5 Project",
   "author": "Eugene Popov <metanit.com>",
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0",
-    "dev": "webpack-dev-server --host 0.0.0.0",
+    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "build": "webpack"
   },
   "dependencies": {
